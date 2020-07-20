@@ -1,0 +1,38 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    }
+
+  #city-date-icon,
+  #city-name,
+  #current-icon {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  h4 {
+      font-weight: bold;
+      margin: 5px;
+  }
+
+.bar{
+  border: 5px;
+  padding: 10px;
+}
+
+/* too bad bootstrap doesn't have an orange colored button built in */
+  .orange{
+      background-color: orange;
+  }
+
+  #cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
+  }
+  
+  .forecast {
+      margin: 10px;
+      padding: 10px;
+  }
